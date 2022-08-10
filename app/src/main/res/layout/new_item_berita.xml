@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen15"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:paddingStart="@dimen/dimen5"
+        android:paddingEnd="@dimen/dimen5">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen30"
+            android:elevation="@dimen/dimen3"
+            app:cardBackgroundColor="@color/colorBackground2"
+            app:cardCornerRadius="@dimen/dimen10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen140"
+                android:layout_marginStart="@dimen/dimen105">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen5"
+                        android:text="@string/title_on_appbar"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/author"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="@string/author"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font12" />
+
+                    <TextView
+                        android:id="@+id/source"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="@string/source"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font12" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dimen20"
+                        android:layout_marginTop="@dimen/dimen10"
+                        android:layout_marginBottom="@dimen/dimen10"
+                        android:layout_toEndOf="@id/source"
+                        android:drawablePadding="@dimen/dimen10"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="@string/time"
+                        android:textColor="@color/white"
+                        android:visibility="invisible"
+                        tools:ignore="ObsoleteLayoutParam" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/publishedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen5"
+                android:background="@drawable/bg_rounded"
+                android:padding="@dimen/dimen5"
+                android:text="@string/publishedAt"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font8"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/progress_load_photo"
+                style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen70" />
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="@dimen/dimen10"
+        android:layout_marginBottom="@dimen/dimen5"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/dimen90"
+            android:layout_height="@dimen/dimen160"
+            android:layout_marginTop="@dimen/dimen4"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/desc" />
+        
+    </LinearLayout>
+
+</FrameLayout>

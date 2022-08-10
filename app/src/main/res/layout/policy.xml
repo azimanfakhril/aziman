@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".activity.activity.setting.policy.policy"
+    tools:ignore="ScrollViewCount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen10"
+        android:layout_marginEnd="@dimen/dimen10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+            <TextView
+                android:id="@+id/googlePlayService"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/dimen8"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dimen20"
+                android:text="@string/googlePlayService"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14"
+                app:drawableStartCompat="@drawable/draw_bullet_list" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+            <TextView
+                android:id="@+id/policyLine5.0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/dimen8"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dimen20"
+                android:text="@string/policyLine5.0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14"
+                app:drawableStartCompat="@drawable/draw_bullet_list" />
+
+            <TextView
+                android:id="@+id/policyLine5.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/dimen8"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dimen20"
+                android:text="@string/policyLine5.1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14"
+                app:drawableStartCompat="@drawable/draw_bullet_list" />
+
+            <TextView
+                android:id="@+id/policyLine5.2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/dimen8"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dimen20"
+                android:text="@string/policyLine5.2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14"
+                app:drawableStartCompat="@drawable/draw_bullet_list" />
+
+            <TextView
+                android:id="@+id/policyLine5.3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/dimen8"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dimen20"
+                android:text="@string/policyLine5.3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14"
+                app:drawableStartCompat="@drawable/draw_bullet_list" />
+
+            <TextView
+                android:id="@+id/policyLine5.4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen10"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead6"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine6"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead7"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine7"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead9"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine9"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen10"
+            android:layout_marginEnd="@dimen/dimen10"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/policyHead10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:gravity="center|start"
+                android:text="@string/policyHead10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/policyLine10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/policyLine10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font14" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

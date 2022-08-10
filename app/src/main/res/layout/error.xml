@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/errorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:paddingLeft="@dimen/dimen16"
+    android:paddingRight="@dimen/dimen16"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/errorImage"
+        android:layout_width="@dimen/dimen200"
+        android:layout_height="@dimen/dimen200"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen60"
+        android:src="@drawable/no_result"
+        android:contentDescription="@string/desc" />
+
+    <TextView
+        android:id="@+id/errorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorImage"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:text="@string/errorTitle"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorTitle"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/errorMessage"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen20"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/retry"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

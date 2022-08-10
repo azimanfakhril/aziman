@@ -1,0 +1,356 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/llCurved"
+    android:background="@color/colorBackground"
+    android:paddingTop="@dimen/dimen10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardHeadLine"
+                android:layout_width="@dimen/dimen150"
+                android:layout_height="@dimen/dimen150"
+                android:layout_margin="@dimen/dimen30"
+                app:cardCornerRadius="@dimen/dimen150"
+                app:cardElevation="@dimen/dimen5"
+                app:strokeColor="@color/colorMenu1"
+                app:strokeWidth="@dimen/dimen3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen64"
+                        android:layout_height="@dimen/dimen64"
+                        android:contentDescription="@string/desc"
+                        android:src="@drawable/ic_headlines"
+                        app:tint="@color/colorMenu1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu1"
+                        android:textColor="@color/colorMenu1"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="@dimen/dimen5"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen3"
+                            android:background="@color/colorMenu1" />
+
+                        <View
+                            android:layout_width="@dimen/dimen10"
+                            android:layout_height="@dimen/dimen3"
+                            android:layout_marginStart="@dimen/dimen3"
+                            android:background="@color/colorMenu1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSports"
+                android:layout_width="@dimen/dimen150"
+                android:layout_height="@dimen/dimen150"
+                android:layout_margin="@dimen/dimen30"
+                app:cardCornerRadius="@dimen/dimen150"
+                app:cardElevation="@dimen/dimen5"
+                app:strokeColor="@color/colorMenu2"
+                app:strokeWidth="@dimen/dimen3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen64"
+                        android:layout_height="@dimen/dimen64"
+                        android:contentDescription="@string/desc"
+                        android:src="@drawable/ic_sports"
+                        app:tint="@color/colorMenu2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu2"
+                        android:textColor="@color/colorMenu2"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="@dimen/dimen5"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen3"
+                            android:background="@color/colorMenu2" />
+
+                        <View
+                            android:layout_width="@dimen/dimen10"
+                            android:layout_height="@dimen/dimen3"
+                            android:layout_marginStart="@dimen/dimen3"
+                            android:background="@color/colorMenu2" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardTechno"
+                android:layout_width="@dimen/dimen150"
+                android:layout_height="@dimen/dimen150"
+                android:layout_margin="@dimen/dimen30"
+                app:cardCornerRadius="@dimen/dimen150"
+                app:cardElevation="@dimen/dimen5"
+                app:strokeColor="@color/colorMenu3"
+                app:strokeWidth="@dimen/dimen3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen64"
+                        android:layout_height="@dimen/dimen64"
+                        android:contentDescription="@string/desc"
+                        android:src="@drawable/ic_technology"
+                        app:tint="@color/colorMenu3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu3"
+                        android:textColor="@color/colorMenu3"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="@dimen/dimen5"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen3"
+                            android:background="@color/colorMenu3" />
+
+                        <View
+                            android:layout_width="@dimen/dimen10"
+                            android:layout_height="@dimen/dimen3"
+                            android:layout_marginStart="@dimen/dimen3"
+                            android:background="@color/colorMenu3" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardBusiness"
+                android:layout_width="@dimen/dimen150"
+                android:layout_height="@dimen/dimen150"
+                android:layout_margin="@dimen/dimen30"
+                app:cardCornerRadius="@dimen/dimen150"
+                app:cardElevation="@dimen/dimen5"
+                app:strokeColor="@color/colorMenu4"
+                app:strokeWidth="@dimen/dimen3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen64"
+                        android:layout_height="@dimen/dimen64"
+                        android:contentDescription="@string/desc"
+                        android:src="@drawable/ic_business"
+                        app:tint="@color/colorMenu4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu4"
+                        android:textColor="@color/colorMenu4"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="@dimen/dimen5"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen3"
+                            android:background="@color/colorMenu4" />
+
+                        <View
+                            android:layout_width="@dimen/dimen10"
+                            android:layout_height="@dimen/dimen3"
+                            android:layout_marginStart="@dimen/dimen3"
+                            android:background="@color/colorMenu4" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardHealth"
+                android:layout_width="@dimen/dimen150"
+                android:layout_height="@dimen/dimen150"
+                android:layout_margin="@dimen/dimen30"
+                app:cardCornerRadius="@dimen/dimen150"
+                app:cardElevation="@dimen/dimen5"
+                app:strokeColor="@color/colorMenu5"
+                app:strokeWidth="@dimen/dimen3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen64"
+                        android:layout_height="@dimen/dimen64"
+
+                        android:contentDescription="@string/desc"
+                        android:src="@drawable/ic_health"
+                        app:tint="@color/colorMenu5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu5"
+                        android:textColor="@color/colorMenu5"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="@dimen/dimen5"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen3"
+                            android:background="@color/colorMenu5" />
+
+                        <View
+                            android:layout_width="@dimen/dimen10"
+                            android:layout_height="@dimen/dimen3"
+                            android:layout_marginStart="@dimen/dimen3"
+                            android:background="@color/colorMenu5" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardEnter"
+                android:layout_width="@dimen/dimen150"
+                android:layout_height="@dimen/dimen150"
+                android:layout_margin="@dimen/dimen30"
+                app:cardCornerRadius="@dimen/dimen150"
+                app:cardElevation="@dimen/dimen5"
+                app:strokeColor="@color/colorMenu6"
+                app:strokeWidth="@dimen/dimen3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dimen64"
+                        android:layout_height="@dimen/dimen64"
+                        android:contentDescription="@string/desc"
+                        android:src="@drawable/ic_entertaiment"
+                        app:tint="@color/colorMenu6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu6"
+                        android:textColor="@color/colorMenu6"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="@dimen/dimen5"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen3"
+                            android:background="@color/colorMenu6" />
+
+                        <View
+                            android:layout_width="@dimen/dimen10"
+                            android:layout_height="@dimen/dimen3"
+                            android:layout_marginStart="@dimen/dimen3"
+                            android:background="@color/colorMenu6" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

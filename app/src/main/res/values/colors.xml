@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="noColor">#00000000</color>
+    <color name="line">#81c784</color>
+    <color name="black">#FF000000</color>
+    <color name="shadowBlack">#6f000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorMenu1">#ffffbb33</color>
+    <color name="colorMenu2">#ffcc0000</color>
+    <color name="colorMenu3">#ffaa66cc</color>
+    <color name="colorMenu4">#52a2f7</color>
+    <color name="colorMenu5">#ff669900</color>
+    <color name="colorMenu6">#FF03DAC5</color>
+
+
+    <color name="colorBackground">#161d27</color>
+    <color name="colorBackground2">#212d3b</color>
+    <color name="colorTextSubtitle">#4e4e4e</color>
+    <color name="date">#606060</color>
+    <color name="colorTextTitle">#262626</color>
+
+    <color name="colorPrimary">#212d3b</color>
+    <color name="colorPrimaryDark">#161d27</color>
+    <color name="colorAccent">#52a2f7</color>
+    <color name="colorDark">#414449</color>
+
+    <color name="btnMenuActive">#aa86f7</color>
+    <color name="btnMenuInActive">#78909c</color>
+
+
+</resources>

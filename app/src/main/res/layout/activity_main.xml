@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+            android:id="@+id/navigationBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/dimen5">
+
+            <com.gauravk.bubblenavigation.BubbleToggleView
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:bt_active="true"
+                app:bt_title="Home"
+                android:layout_marginStart="@dimen/dimen8"
+                app:bt_colorActive="@color/btnMenuActive"
+                app:bt_colorInactive="@color/btnMenuInActive"
+                app:bt_icon="@drawable/ic_baseline_home_24"
+                app:bt_shape="@drawable/tab_navbar_line"
+                app:bt_titlePadding="@dimen/dimen5"
+                app:bt_titleSize="@dimen/font10" />
+
+            <com.gauravk.bubblenavigation.BubbleToggleView
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:bt_colorActive="@color/btnMenuActive"
+                app:bt_colorInactive="@color/btnMenuInActive"
+                app:bt_icon="@drawable/ic_baseline_category_24"
+                app:bt_shape="@drawable/tab_navbar_line"
+                app:bt_title="Kategori"
+                app:bt_titlePadding="@dimen/dimen5"
+                app:bt_titleSize="@dimen/font10" />
+
+            <com.gauravk.bubblenavigation.BubbleToggleView
+                android:id="@+id/crypto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:bt_title="Crypto"
+                app:bt_colorActive="@color/btnMenuActive"
+                app:bt_colorInactive="@color/btnMenuInActive"
+                app:bt_icon="@drawable/ic_baseline_currency_bitcoin_24"
+                app:bt_shape="@drawable/tab_navbar_line"
+                app:bt_titlePadding="@dimen/dimen5"
+                app:bt_titleSize="@dimen/font10" />
+
+            <com.gauravk.bubblenavigation.BubbleToggleView
+                android:id="@+id/setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/dimen8"
+                app:bt_colorActive="@color/btnMenuActive"
+                app:bt_colorInactive="@color/btnMenuInActive"
+                app:bt_icon="@drawable/ic_baseline_settings_24"
+                app:bt_shape="@drawable/tab_navbar_line"
+                app:bt_title="Setting"
+                app:bt_titlePadding="@dimen/dimen2"
+                app:bt_titleSize="@dimen/font10" />
+
+        </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</RelativeLayout>
